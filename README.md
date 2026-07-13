@@ -108,7 +108,7 @@ Testprojekt/
 | Frontend (Vite)                     | 5173 |
 | Backend (Express)                   | 3002 |
 | Multibase Dashboard                 | 3001 |
-| Supabase Instance (your-project)    | 4645 |
+| Supabase Instance (your-project)    | e.g.4645 (check docker ps) |
 
 ## Troubleshooting
 
@@ -131,3 +131,11 @@ Testprojekt/
 
 - The realtime container must be running: `docker ps | grep realtime`
 - Check that the tenant is correctly configured (see `docs/REALTIME_CONFIG.md`)
+
+## Related Projects
+
+- [Multibase](https://github.com/skipper159/multibase2)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
